@@ -1,9 +1,29 @@
 ---
 name: home
 url: /
+controller: HomeController
 ---
 
-<div class="grid-container">
-  <h1>Welcome to Foundation for Apps!</h1>
+<div class="grid-container" data-ng-init="load_entities()">
+  <h1>Home Page</h1>
   <p class="lead">This is version <strong>1.2 Eiger</strong>.</p>
+  
+  <div class="grid-block">
+    <div class="small-12 medium-6 grid-content">
+      <button class="button warning" ng-click="show_message()">Test</button>  
+    </div>
+  </div>
+
+  <div class="grid-block">
+    <div class="small-12 medium-6 grid-content">
+      <a zf-open="basicModal" class="button">Open modal</a>
+    </div>
+  </div>
+
+</div>
+
+<div zf-modal="" id="basicModal">
+  <a zf-close="" class="close-button">×</a>
+  <h3>Title</h3>
+  <p>Message on the modal box</p>
 </div>
