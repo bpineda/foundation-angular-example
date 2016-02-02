@@ -8,7 +8,7 @@ To start the app, you need to switch to the ExampleApp directory. From there run
 
     npm start
 
-If you're using Mac (I still have to test all this on Windows), it will automatically open the browser to the correct address and port [http://localhost:8079/](http://localhost:8079/). 
+If you're using Mac (I still have to test this on Windows), it will automatically open the browser to the correct address and port [http://localhost:8079/](http://localhost:8079/). 
 
 This example shows you how to divide your logic and services within files for each feature, i.e. a directory controllers for all of your controllers and a directory services for your controllers.
 
