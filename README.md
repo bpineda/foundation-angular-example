@@ -1,14 +1,14 @@
 # Foundation-Angular Example
 
-Foundation now comes with a version to be used for apps. This example just takes the library and plays around with the Foundation components and the Angular functionality it has. 
+[Foundation](http://foundation.zurb.com/) now comes with a version to be used for [apps](http://foundation.zurb.com/apps.html). This example just takes the library and plays around with the Foundation [components](http://foundation.zurb.com/apps/docs/) and the Angular functionality it has. 
 
-You need to have npm installed your computer so the files can be served through a node web server. You will also need gulp and bower installed.
+You need to have [npm](https://www.npmjs.com/) installed your computer so the files can be served through a node web server. You will also need [gulp](http://gulpjs.com/) and [bower](http://bower.io/) installed.
 
 To start the app, you need to switch to the ExampleApp directory. From there run
 
     npm start
 
-If you're using Mac, It will automatically open the browser to the correct address and port. 
+If you're using Mac (I still have to test all this on Windows), it will automatically open the browser to the correct address and port [http://localhost:8079/](http://localhost:8079/). 
 
 This example shows you how to divide your logic and services within files for each feature, i.e. a directory controllers for all of your controllers and a directory services for your controllers.
 
@@ -75,6 +75,10 @@ In this example, the HomeController is inside the application.home module, which
     .
     .
     .
-    
+
+Every time you start the server with npm start, the application gets built on the build directory. If you wish just to build the application, just run:
+
+	gulp build --production
+	    
 **Note**:
 Sometimes the server behaves uncannily. You may need to restart it. 
