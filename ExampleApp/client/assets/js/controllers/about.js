@@ -7,15 +7,19 @@
   .controller('AboutController', [ '$scope', 
                                   '$stateParams', 
                                   '$state', 
+                                  'Test',
                                   '$controller',
                                   function(
                                             $scope,
                                             $stateParams,
                                             $state,
+                                            Test,
                                             $controller)
                                   {
 
                                     $scope.entity = {};
+                                    console.log('Loaded');
+                                    console.log(Test.selected_test_value);
 
                                     $scope.show_message = function()
                                     {
