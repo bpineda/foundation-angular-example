@@ -5,6 +5,7 @@
     'ui.router',
     'ngAnimate',
     'application.home',
+    'application.about',
 
     //foundation
     'foundation',
