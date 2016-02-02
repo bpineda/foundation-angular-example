@@ -19,7 +19,7 @@
 
                                     $scope.show_message = function()
                                     {
-                                      
+                                      alert('You clicked on the button');
                                     };
       
 
