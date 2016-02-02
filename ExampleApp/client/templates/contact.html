@@ -1,8 +1,23 @@
 ---
 name: contact
 url: /contact
+controller: ContactController
 ---
 
-<div class="grid-container">
-  <h1>Contact page</h1>
+<div class="grid-container" data-ng-init="load_entities()">
+  <h1>Contact Page</h1>
+  
+  <div class="grid-block">
+    <div class="grid-block">
+      <button class="expand button success" ng-click="change_service_value()">Change service value</button>  
+    </div>
+  </div>
+  <div class="grid-block">
+    <div class="small-12 medium-6 grid-content">
+      {{selected_test_value}}
+    </div>
+  </div>
+
+  
+
 </div>
