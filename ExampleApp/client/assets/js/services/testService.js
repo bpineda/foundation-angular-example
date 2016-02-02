@@ -6,7 +6,7 @@ angular.module('application.services', [])
 
         //Selected test value to be saved between states
         selected_test_value : {
-            id : null
+            name : null
         },
     }
 
