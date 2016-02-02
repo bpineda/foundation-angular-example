@@ -1,9 +1,17 @@
 ---
 name: about
 url: /about
+controller: AboutController
 ---
 
-<div class="grid-container">
-  <h1>About page</h1>
+<div class="grid-container" data-ng-init="load_entities()">
+  <h1>About Page</h1>
   <p class="lead">This is version <strong>1.2 Eiger</strong>.</p>
+  
+  <div class="grid-block">
+    <div class="small-12 medium-6 grid-content">
+      <button class="button primary" ng-click="show_message()">Test</button>  
+    </div>
+  </div>
+
 </div>
