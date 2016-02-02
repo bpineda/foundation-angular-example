@@ -6,6 +6,8 @@
     'ngAnimate',
     'application.home',
     'application.about',
+    'application.news',
+    'application.contact',
     'application.services',
 
     //foundation
